@@ -27,5 +27,22 @@ echo $techco2;
 $techco3 = "Dell <br>";
 echo $techco3;
 
+//concatenation/joining
+//joining a variable and variable: use the dot operator
+echo $techco1.$techco2.$techco3;
+
+$car1 = "Benz";
+$car2 = "Toyota";
+//space added either as
+echo $car1." ".$car2;
+//or
+$car1 = "Benz ";
+$car2 = "Toyota";
+echo $car1.$car2."<br>";
+
+//joining a string and a variable
+echo "I love $car1 <br>";
+echo "I love $car1 and $car2";
+
 ?>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cumque doloremque expedita facilis laboriosam omnis pariatur quibusdam recusandae rerum voluptates!</p>

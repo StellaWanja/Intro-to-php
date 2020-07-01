@@ -1,0 +1,59 @@
+#form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 2px solid#cccccc;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #cccccc;
+}
+table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+th, td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+/*footer*/
+#footer{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 50px 50px 20px 50px;
+}
+#footer h3{
+    text-align: center;
+}
+#footer #text-left{
+    text-align: justify;
+}
+#footer #text-center a{
+    color: white;
+    display: block;
+    text-align: center;
+}
+#footer #text-center a:hover{
+    color: #bec2b5;
+    text-decoration: none;
+}
+#footer #text-right{
+    text-align: center;
+}
+#footer #text-right a{
+    color: white;
+    padding: 5px;
+}
+#footer #text-right a:hover {
+    color: #bec2b5;
+    text-decoration: none;
+}
+#footer #contact_btn{
+    margin-top: 20px;
+}
